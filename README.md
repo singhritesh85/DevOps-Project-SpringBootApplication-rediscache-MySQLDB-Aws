@@ -21,7 +21,7 @@
 ![image](https://github.com/singhritesh85/DevOps-Project-SpringBootApplication-rediscache-MySQLDB-Aws/assets/56765895/63400a1e-fe4e-4977-8a4c-8db78cfc45ba)
 9. Now Access the entry using GET method from POSTMAN and record the time as shown in the screenshot below
 ![image](https://github.com/singhritesh85/DevOps-Project-SpringBootApplication-rediscache-MySQLDB-Aws/assets/56765895/d8e5fa43-2f92-41c6-9c34-aba0ab259702)
-This is the first time we are accessing the data So Application will connect to database and provide the result and you can see from screenshot below the time taken 611ms.
+This is the first time we are accessing the data So Application will connect to database and provide the result and you can see from screenshot above the time taken 611ms.
 10. Finally Access the entry second time using GET method from POSTMAN and record the time as shown in the screenshot below
 ![image](https://github.com/singhritesh85/DevOps-Project-SpringBootApplication-rediscache-MySQLDB-Aws/assets/56765895/bb7e95aa-5e02-417f-82bf-d4b69a515219)
 This time when we access the data then SpringBoot Application will connect with Redis cache and provide the data and hence the time taken is relatively less.
